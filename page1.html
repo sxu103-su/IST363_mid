@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="page1.css" />
+    <title>Hello, world!</title>
+    <style>
+        @media only screen and (max-width: 1250px) {
+            [class*="col-4"] {
+                max-width: 50%;
+            }
+        }
+        
+        @media only screen and (max-width: 768px) {
+            [class*="col-4"] {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="row">
+        <span class="logo icon col-md-3 col-5"><a href="page1.html">Travel365</a></span>
+        <span class="col-md-7 col-1"></span> <span class="col-1 icon"><label for="cont_04"><img  src=".\picture\search.svg" width="30 px" height="30 px">
+        </label> </img></span>
+        <span class="col-md-1 col-3 icon"><label for="cont_03"><img  src=".\picture\log.svg" width="30 px" height="30 px" >
+     </img></label></span>
+    </nav>
+    <input type="checkbox" name="cont4" id="cont_04" style="visibility: hidden;" />
+    <div class="cover cont4">
+        <div class="row search ">
+            <div class="input-group col-9">
+                <input type="text" class="form-control" placeholder="Maldives--Sunny Side of Life" aria-label="Maldives--Sunny Side of Life" aria-describedby="basic-addon2" id="myInput" style="margin-right:-30px; ">
+                <img onclick="document.getElementById('myInput').placeholder = ''" class="i-button" src=".\picture\close.svg" width="20 px" height="20 px" style="margin-top:10px; ">
+                </img>
+            </div>
+            <div class="col-1"><span class="s-button">Search</span></div>
+        </div>
+    </div>
+    <input type="checkbox" name="cont3" id="cont_03" style="visibility: hidden;" />
+    <div class="cover cont3">
+        <div class="row login">
+            <div class="row col-8">
+                <div class="col-md-6 col-12">
+                    <p>Account</p>
+                    <div class="input-group col-12">
+
+                        <input type=" text " class="form-control " placeholder="account" aria-label="account " aria-describedby="basic-addon2 " id="myInput ">
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <p>Password</p>
+                    <div class="input-group col-12">
+
+                        <input type=" text " class="form-control " placeholder="password " aria-label="password " aria-describedby="basic-addon2 " id="myInput ">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <P id="login">Log In</P>
+            </div>
+
+        </div>
+    </div>
+    <div class="row content">
+        <main class="col-lg-9 col-11">
+
+            <h2>Picked For You:</h2>
+            <div class="slidelist ">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="slides mb-4">
+                            <img src="picture/pic2.jpg">
+                            <p>When come to singling out the best vacation spots and compiling our annual year list ...</p>
+                            <span class="learn"><a href="page2.html">Learn More</a></span></div>
+                    </div>
+                    <div class="col-4">
+                        <div class="slides mb-4">
+                            <img src="picture/pic2.jpg">
+                            <p>When come to singling out the best vacation spots and compiling our annual year list ...</p>
+                            <span class="learn"><a href="page2.html">Learn More</a></span></div>
+                    </div>
+                    <div class=" col-4">
+                        <div class="slides  mb-4">
+                            <img src="picture/pic2.jpg">
+                            <p>When come to singling out the best vacation spots and compiling our annual year list ...</p>
+                            <span class="learn"><a href="page2.html">Learn More</a></span></div>
+                    </div>
+                    <div class="col-4">
+                        <div class="slides  mb-4">
+                            <img src="picture/pic2.jpg">
+                            <p>When come to singling out the best vacation spots and compiling our annual year list ...</p>
+                            <span class="learn"><a href="page2.html">Learn More</a></span></div>
+                    </div>
+                    <div class="col-4">
+                        <div class="slides mb-4">
+                            <img src="picture/pic2.jpg">
+                            <p>When come to singling out the best vacation spots and compiling our annual year list ...</p>
+                            <span class="learn"><a href="page2.html">Learn More</a></span></div>
+                    </div>
+                    <div class=" col-4">
+                        <div class="slides mb-4">
+                            <img src="picture/pic2.jpg">
+                            <p>When come to singling out the best vacation spots and compiling our annual year list</p>
+                            <span class="learn"><a href="page2.html">Learn More</a></span></div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <div class="col-lg-3 col-12">
+            <div class="side">
+                <h3>Other Link</h3>
+                <ul>
+                    <li>
+                        Multiple option for you
+                    </li>
+                    <li>Multiple option for you</li>
+                    <li>Multiple option for you</li>
+                    <li>Multiple option for you</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="p-contain">
+        <div aria-label="Page navigation">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <span>   
+    ©Travel365 2019</span>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

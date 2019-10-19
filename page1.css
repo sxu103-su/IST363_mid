@@ -1,0 +1,243 @@
+body,
+html {
+    width: 100%;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+.row {
+    margin: 0px;
+}
+
+nav {
+    height: 90px;
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+    position: absolute;
+    top: 90px;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+    position: absolute;
+    top: 90px;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.login p {
+    color: white;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+#login {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.s-button {
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    font-family: Reenie Beanie;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.slidelist {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.slides {
+    width: 300px;
+    height: 265px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+
+.slides:hover {
+    box-shadow: 0px 4px 4px rgba(66, 52, 82, 0.25);
+}
+
+.slidelist>row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+.slides img {
+    width: 265px;
+    height: 160px;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgray;
+}
+
+.learn {
+    margin-top: -35px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    z-index: 5;
+}
+
+.learn:hover {
+    color: purple;
+}
+
+.content {
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.side {
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.6)
+}
+
+.side li {
+    padding: 15px;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px rgba(66, 52, 82, 0.25);
+    margin-bottom: 20px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.side li:hover {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+.cont4 {
+    display: none;
+}
+
+input[type="checkbox"]:checked+.cont4 {
+    display: flex;
+}
+
+.cont3 {
+    display: none;
+}
+
+input[type="checkbox"]:checked+.cont3 {
+    display: flex;
+}
+
+.i-button {
+    cursor: pointer;
+    z-index: 199;
+}
+
+.p-contain {
+    display: flex;
+    justify-content: center;
+}
+
+.page-link {
+    color: black;
+}
+
+.page-link:hover {
+    color: purple;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer span {
+    color: white;
+}
+
+label {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.learn a {
+    text-decoration: none;
+    color: black;
+}
+
+.learn a:hover {
+    text-decoration: none;
+    color: purple;
+}
